@@ -51,7 +51,7 @@ PlaceHolder p1;
     private void initComponents() {
 
         image_login = new javax.swing.JLabel(){
-            ImageIcon icon = new ImageIcon("image/hotel_icon.png");
+            ImageIcon icon = new ImageIcon("image/image_home.png");
             public void paintComponent(Graphics g){
                 Dimension d = getSize();
                 g.drawImage(icon.getImage(), 0, 0, d.width, d.height, null);
